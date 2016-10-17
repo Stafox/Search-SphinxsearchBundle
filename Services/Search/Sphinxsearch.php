@@ -7,17 +7,17 @@ class Sphinxsearch
 	/**
 	 * @var string $host
 	 */
-	private $host;
+	protected $host;
 
 	/**
 	 * @var string $port
 	 */
-	private $port;
+	protected $port;
 
 	/**
 	 * @var string $socket
 	 */
-	private $socket;
+	protected $socket;
 
 	/**
 	 * @var array $indexes
@@ -29,12 +29,12 @@ class Sphinxsearch
 	 *   ...,
 	 * );
 	 */
-	private $indexes;
+	protected $indexes;
 
 	/**
 	 * @var SphinxClient $sphinx
 	 */
-	private $sphinx;
+	protected $sphinx;
 
 	/**
 	 * Constructor.
